@@ -1,14 +1,274 @@
 ,Year,Hotel,Date,Comment,Lon,Lat
-0,2017,"Hyatt Regency Lake Tahoe Resort, Spa and Casino",2017-01-15, 1 Night,-119.94302,39.24069
-1,2017,New Sheridan Hotel,2017-01-28, 3 Nights,-107.812099,37.937707
-2,2017,Grand Vista Hotel,2017-01-3, 1 Night,-108.5356283,39.1153005
-3,2017,The Westin Snowmass Resort,2017-02-01, 3 Nights,-106.9539079,39.2058605
-4,2017,Grand Hyatt Denver,2017-02-04, 1 Night,-104.988989,39.74584
-5,2017,Mountain Retreat Hotel & Suites,2017-02-23, 1 Night,-123.148801,49.7160807
-6,2017,Hilton Whistler Resort & Spa,2017-02-24, 2 Nights,-122.9553983,50.113325
-7,2017,Ramada SeaTac Airport,2017-02-26, 1 Night,-122.294637,47.4526886
-8,2017,Hyatt Place Salt Lake City/Cottonwood,2017-03-10, 2 Nights,-111.8051599,40.6354822
-9,2017,Atomic Inn,2017-04-07, 1 Night,-116.7562351,36.9082855
-10,2017,Stovepipe Wells Village Hotel,2017-04-08, 1 Night,-117.1465369,36.6062861
-11,2017,Racetrack Playa (Camping),2017-04-08, 1 Night,-117.5627,36.6813
-12,2017,1791 Lucretia Ave (Airbnb),2017-04-27, 1 Night,-121.8499782,37.3221846
+0,2017,"Hyatt Regency Lake Tahoe Resort, Spa and Casino",2017-01-15, 1 Night,39.24069,-119.94302
+1,2017,New Sheridan Hotel,2017-01-28, 3 Nights,37.937707,-107.812099
+2,2017,Grand Vista Hotel,2017-01-3, 1 Night,39.1153005,-108.5356283
+3,2017,The Westin Snowmass Resort,2017-02-01, 3 Nights,39.2058605,-106.9539079
+4,2017,Grand Hyatt Denver,2017-02-04, 1 Night,39.74584,-104.988989
+5,2017,Mountain Retreat Hotel & Suites,2017-02-23, 1 Night,49.7160807,-123.148801
+6,2017,Hilton Whistler Resort & Spa,2017-02-24, 2 Nights,50.113325,-122.9553983
+7,2017,Ramada SeaTac Airport,2017-02-26, 1 Night,47.4526886,-122.294637
+8,2017,Hyatt Place Salt Lake City/Cottonwood,2017-03-10, 2 Nights,40.6354822,-111.8051599
+9,2017,Atomic Inn,2017-04-07, 1 Night,36.9082855,-116.7562351
+10,2017,Stovepipe Wells Village Hotel,2017-04-08, 1 Night,36.6062861,-117.1465369
+11,2017,Racetrack Playa (Camping),2017-04-08, 1 Night,36.6813,-117.5627
+12,2017,1791 Lucretia Ave (Airbnb),2017-04-27, 1 Night,37.3221846,-121.8499782
+13,2017,Le Méridien New Orleans,2017-05-12, 2 Nights,29.9490447,-90.0664948
+14,2017,1530 Empire Ave (Airbnb),2017-06-10, 2 Nights,40.6555388,-111.5071892
+15,2017,3348 Patricks Point Dr (Vrbo),2017-07-01, 2 Nights,41.120643,-124.15818
+16,2017,McCloud Mercantile Hotel,2017-07-03, 1 Night,41.2532389,-122.1393692
+17,2017,Grandview Campground,2017-07-15, 1 Night,37.3335255,-118.1872998
+18,2017,Cinnamon Bear Inn,2017-07-14, 1 Night,37.646928,-118.971903
+19,2017,Grant Grove Cabins,2017-08, 1 Night,36.740445,-118.96316
+20,2017,Playa Grande Resort & Grand Spa,2017-09, 1 Nights,22.876528,-109.9084493
+21,2017,Marquis Los Cabos Resort & Spa,2017-09, 2 Nights,22.98611,-109.757669
+22,2017,Encore,2017-10, 3 Nights,36.1290754,-115.1652896
+23,2014,The Lodge at the Mountain Village,2017-10, 3 Nights,40.6524806,-111.5080048
+24,2014,Taj Campton Place,2014,,37.789193,-122.4067247
+25,2014,The Westin Tysons Corner,2014,,38.9080982,-77.2158417
+26,2014,Sheraton Herndon Dulles East,2014,,38.9583619,-77.421773
+27,2014,The Westin St. Louis,2014,,38.6234632,-90.1948382
+28,2014,The Westin Washington Dulles Airport,2014,,38.955762,-77.427842
+29,2014,W San Francisco,2014,,37.7853321,-122.4004492
+30,2014,Hilton San Jose,2014,,37.3292632,-121.8905242
+31,2014,"The Westin Governor Morris, Morristown",2014,,40.7975185,-74.4586641
+32,2014,The Fairfax at Embassy Row,2014,,38.9105207,-77.0469582
+33,2014,Aloft Chesapeake,2014,,36.7788583,-76.2419173
+34,2014,Hilton McLean Tysons Corner,2014,,38.9263581,-77.2160177
+35,2014,New Haven Hotel,2014,,41.30468,-72.92947
+36,2014,"The Liberty, a Luxury Collection Hotel, Boston",2014,,42.3619402,-71.0696222
+37,2014,Bar Harbor Inn & Spa,2014,,44.3904723,-68.2024454
+38,2014,W New York - Union Square,2014,,40.7365757,-73.9885814
+39,2014,Sheraton Clayton Plaza,2014,,38.6470423,-90.3363276
+40,2014,"The Westin Riverwalk, San Antonio",2014,,29.4234017,-98.4907714
+41,2014,Hilton St. Louis at the Ballpark,2014,,38.625141,-90.190422
+42,2014,Kimpton Donovan Hotel,2014,,38.9051161,-77.0314715
+43,2014,"The Westin Washington, D.C. City Center",2014,,38.905356,-77.0333409
+44,2014,The Chase Park Plaza Royal Sonesta St. Louis,2014,,38.6441469,-90.263823
+45,2014,Park Hyatt Washington D.C.,2014,,38.905876,-77.051033
+46,2014,Goldener Hirsch Salzburg,2014,,47.799834,13.040927
+47,2014,Le Méridien Munich,2014,,48.1389862,11.5579605
+48,2014,The Westin Kansas City at Crown Center,2014,,39.0833547,-94.5828389
+49,2014,"Providence Biltmore, Curio Collection by Hilton",2014,,41.8245648,-71.4133994
+50,2014,The Westin Portland Harborview,2014,,43.6548418,-70.2640432
+51,2014,The Westin Alexandria,2014,,38.8031375,-77.065393
+52,2014,Sheraton Suites Old Town Alexandria,2014,,38.8130885,-77.0434767
+53,2014,Hilton Whistler Resort,2014,,50.1133614,-122.9552829
+54,2014,Sheraton Salt Lake City Hotel,2014,,40.7589902,-111.8959938
+55,2015,W San Francisco,2014,,37.7853041,-122.4005404
+56,2015,The Fairfax at Embassy Row,2014,,38.9105521,-77.0470412
+57,2015,"The Westin Washington, D.C. City Center",2014,,38.905356,-77.0333409
+58,2015,"The Westin Monache Resort, Mammoth",2014,,37.6492294,-118.9863187
+59,2015,The Westin St. Francis San Francisco on Union Square,2014,,37.7877881,-122.4088321
+60,2015,585 Ocean View Blvd (Vacation Rental),2014,,36.6243901,-121.9168702
+61,2015,Bellagio Hotel and Casino,2014,,36.1126264,-115.1767051
+62,2015,Sheraton Maui Resort & Spa,2014,,20.9265175,-156.6944363
+63,2015,"Mandarin Oriental, Las Vegas",2014,,36.1061096,-115.1745799
+64,2015,Sheraton Kona Resort & Spa at Keauhou Bay,2014,,19.558503,-155.96543
+65,2015,Westin DC City Center,2014,,38.9053528,-77.0331556
+66,2015,Guesthouse Gerði,2014,,64.1286612,-16.0117195
+67,2015,Centerhotel Thingholt,2014,,64.1464419,-21.9344953
+68,2015,The St. Regis Abu Dhabi,2014,,24.4638601,54.3282687
+69,2015,Desert Nights Camp,2014,,22.3997209,58.7221598
+70,2015,"Al Bustan Palace, A Ritz-Carlton Hotel",2014,,23.56676,58.615349
+71,2015,"Hyatt Capital Gate, Abu Dhabi",2014,,24.418363,54.434359
+72,2015,Jet Park Airport Hotel & Conference Centre,2014,,-36.978911,174.786625
+73,2015,Grand Mercure Puka Park Resort,2014,,-37.030728,175.867531
+74,2015,Princes Gate Boutique Hotel,2014,,-38.1346329,176.2551563
+75,2015,Bolton Hotel,2014,,-41.279402,174.77467
+76,2015,Marlborough Vintners Hotel,2014,,-41.484202,173.839336
+77,2015,Sheraton Clayton Plaza Hotel St. Louis,2014,,38.6470457,-90.3361909
+78,2015,Kai's Place in Vallendar,2014,,50.3993913,7.61458590000007
+79,2015,2501 Porter Apartments (Kenina & Michael),2015-05,,38.935494,-77.053883
+80,2016,The Linq Hotel & Casino,2016-05, 2 Nights,36.1181537,-115.1724421
+81,2016,Hampton Inn Provo,2016-03, 1 Nights,40.2135672,-111.657227
+82,2016,DEVILS GARDEN CAMPGROUND,2016-03, 1 Nights,38.7769444,-109.5891667
+83,2016,Willow Flat Campground,2016-03, 1 Nights,38.383351,-109.8882351
+84,2016,Hyatt Regency Dallas,2016-09, 2 Nights,32.77618,-96.809182
+85,2016,Soho Grand Hotel,2016-07, 1 Nights,40.722055,-74.004447
+86,2016,NOMO SOHO,2016-07, 1 Nights,40.719883,-74.000157
+87,2016,1338 N LaSalle Dr (Airbnb),2016-09, 2 Nights,41.906866,-87.633503
+88,2016,The Village At Mammoth,2016-11, 2 Nights,37.6501543,-118.9854086
+89,2016,Ko Olina Beach Villas Ocean Tower,2016-10, 7 Nights,21.3353715,-158.1214324
+90,2016,Mountainback At Mammoth,2016-12, 2 Nights,37.644302,-118.994
+91,2016,3900 S & S 3100 E (Airbnb),2016-02, 2 Nights,40.6870211,-111.8054476
+92,2016,Main Port Hotel,2016-04, 2 Nights,51.9132041,4.48234509999997
+93,2016,Amstel 204 (Airbnb),2016-04, 2 Nights,52.3660943,4.90026560000001
+94,2016,Althoff Grandhotel Schloss Bensberg,2016-04, 1 Night,50.966738,7.15998400000001
+95,2016,Lyric Hôtel Paris,2016-05, 2 Nights,48.8690699,2.33680920000006
+96,2016,"Hotel Maria Cristina, a Luxury Collection Hotel, San Sebastian",2016-05, 2 Nights,43.3218078,-1.98010590000001
+97,2016,Château Gütsch,2016-12, 1 Night,47.051639,8.29502500000001
+98,2016,Hotel Grieshof,2016-12, 5 Nights,47.1292408,10.2669303
+99,2016,Sheraton Zurich Neues Schloss Hotel,2016-12, 2 Nights,47.3654714,8.53593990000002
+100,2016,Novotel Queenstown Lakeside,2016-01-05, 2 Nights,-45.0335007,168.6628202
+101,2016,Rydges Latimer Christchurch,2016-01-01, 2 Nights,-43.5305288,172.6436211
+102,2016,Infinity Eden Lodge Greymouth,2016-01-02, 1 Night,-42.4989812,171.1838034
+103,2016,Scenic Hotel Franz Josef Glacier,2016-01, 1 Night,-43.3860881,170.182388
+104,2016,Milford Sound Lodge,2016-01, 2 Nights,-44.6771268,167.9382277
+105,2016,Mountain Chalet Motels,2016-01, 1 Night,-44.262062,170.102821
+106,2016,137 Tong Zi Po Lu (Joy's Cousin's House),2016-09, 3 Nights,28.2169889,112.942466666667
+107,2016,The Langham Auckland,2016-01, 1 Night,-36.8573462,174.7636708
+108,2016,Ardgour Strawbale Bed and Breakfast,2016-01, 1 Night,-44.8929554,169.3868355
+109,2016,Legends Whistler,2016-02, 3 Nights,50.0946291,-122.9893341
+110,2016,Red Roof Inn Seattle Airport - SEATAC,2016-02, 1 Night,47.451428,-122.294836
+111,2016,"Manhattan NYC-an Affinia hotel, New York",2016-10, 2 Nights,40.7486392,-73.9916126
+112,2016,"Hyatt Regency Lake Tahoe Resort, Spa and Casino",2016-11, 1 Nights,39.24069,-119.94302
+113,2012,Hilton McLean Tysons Corner,2016-11, 1 Nights,38.9263581,-77.2160177
+114,2012,Embassy Suites by Hilton Tysons Corner,2016-11, 1 Nights,38.9255593,-77.2401887
+115,2012,Hilton Garden Inn Pittsburgh University Place,2016-11, 1 Nights,40.4394061,-79.9595031
+116,2012,Washington Hilton,2016-11, 1 Nights,38.916544,-77.044852
+117,2012,Hilton Atlanta Airport,2016-11, 1 Nights,33.6599175,-84.4242523
+118,2012,Capital Hilton,2016-11, 1 Nights,38.903196,-77.036329
+119,2012,Holiday Inn Express KITTY HAWK BEACH,2016-11, 1 Nights,36.0682353,-75.6931568
+120,2012,Hampton Inn Havelock,2016-11, 1 Nights,34.8917114,-76.9252612
+121,2012,Hilton St. Louis at the Ballpark,2016-11, 1 Nights,38.625141,-90.190422
+122,2012,Hilton Garden Inn Tysons Corner,2016-11, 1 Nights,38.9165336,-77.232745
+123,2012,Hilton St. Louis Downtown at the Arch,2016-11, 1 Nights,38.6273168,-90.1883223
+124,2012,Tysons Corner Marriott,2016-11, 1 Nights,38.9137401,-77.2215924
+125,2012,The Westin Tysons Corner,2016-11, 1 Nights,38.9080982,-77.2158417
+126,2012,"St. Louis Union Station Hotel, Curio Collection by Hilton",2016-11, 1 Nights,38.629174,-90.207592
+127,2012,Courtyard by Marriott Tysons Corner Fairfax,2016-11, 1 Nights,38.9201738,-77.2274223
+128,2012,Renaissance St. Louis Grand Hotel,2016-11, 1 Nights,38.6304757,-90.1917659
+129,2012,Conrad New York,2016-11, 1 Nights,40.715015,-74.015249
+130,2012,Residence Inn by Marriott Ottawa Downtown,2016-11, 1 Nights,45.4205553,-75.6945781
+131,2012,Homewood Suites by Hilton Mont-Tremblant Resort,2016-11, 1 Nights,46.2138967,-74.5858377
+132,2012,Sheraton Annapolis,2012-05,,38.9855022,-76.5423304
+133,2012,Hotel Miramar,2012-05,,41.3703041,2.17141000000004
+134,2012,Château Meyre,2012-05,,45.030764,-0.774039399999992
+135,2012,Astoria7,2012-05,,43.3082934,-1.98009379999996
+136,2012,Hotel Cosme Palacio,2012-05,,42.548647,-2.58649700000001
+137,2012,Hotel Las Letras,2012-05,,40.4194369,-3.69949109999993
+138,2012,Omni Shoreham Hotel,2012-05,,38.9223969,-77.0532664
+139,2012,Aloft BWI Baltimore Washington International Airport,2012-05,,39.195436,-76.679483
+140,2013,Hilton St. Louis at the Ballpark,2012-05,,38.625141,-90.190422
+141,2013,Hilton Arlington,2012-05,,38.8817206,-77.1108645
+142,2013,Hilton Garden Inn Pittsburgh University Place,2012-05,,40.4394061,-79.9595031
+143,2013,Hilton Montréal Bonaventure,2012-05,,45.4993335,-73.5649466
+144,2013,Hilton McLean Tysons Corner,2012-05,,38.9263581,-77.2160177
+145,2013,Hilton St. Louis Airport,2012-05,,38.735901,-90.359561
+146,2013,Doubletree by Hilton Washington,2012-05,,38.9079223,-77.0354926
+147,2013,Le Méridien Arlington,2012-05,,38.897297,-77.069977
+148,2013,The Westin Arlington Gateway,2012-05,,38.8806466,-77.1142986
+149,2013,"The Westin Washington, D.C. City Center",2012-05,,38.905356,-77.0333409
+150,2013,Sheraton Tysons Hotel,2012-05,,38.9309749,-77.246181
+151,2013,Le Méridien San Francisco,2013,,37.7947029,-122.4008031
+152,2013,Embassy Suites by Hilton Napa Valley,2013,,38.300486,-122.301302
+153,2013,The Fairfax at Embassy Row,2013,,38.9105521,-77.0470412
+154,2013,Four Points by Sheraton Washington DC,2013,,38.902848,-77.0285053
+155,2013,W Washington D.C.,2013,,38.896938,-77.0334345
+156,2013,Le Méridien Arlington,2013,,38.897297,-77.069977
+157,2013,"The St. Regis Washington, D.C.",2013,,38.9020975,-77.0360535
+158,2013,The Westin Tysons Corner,2013,,38.9080982,-77.2158417
+159,2013,The Westin Washington Dulles Airport,2013,,38.955762,-77.427842
+160,2013,Renaissance Shanghai Yu Garden Hotel,2013,,31.2276328,121.4881236
+161,2013,Crowne Plaza Lijiang Ancient Town,2013,,26.864932,100.237928
+162,2013,Songtsam Retreat at Shangri-La,2013,,27.8589988,99.702042
+163,2013,Sheraton Jiuzhaigou Resort （Northwest Gate）,2013,,33.278132,103.930238
+164,2013,Sofitel Wanda Chengdu Hotel,2013,,30.647353,104.068704
+165,2013,Sheraton Changsha Hotel,2013,,28.2028619,112.9853273
+166,2013,Waldorf Astoria Shanghai on the Bund,2013,,31.233438,121.489849
+167,2013,Hilton Tokyo Narita Airport,2013,,35.7846266,140.353749
+168,2013,The Westin St. Louis,2013,,38.6234632,-90.1948382
+169,2013,"The Westin Convention Center, Pittsburgh",2013,,40.4441429,-79.995131
+170,2013,Aloft Washington National Harbor,2013,,38.7842075,-77.0161668
+171,2013,Residence Inn by Marriott Charleston North/Ashley Phosphate,2013,,32.936338,-80.051438
+172,2013,Le Méridien Dallas by the Galleria,2013,,32.9308989,-96.8175582
+173,2013,Element Arundel Mills BWI Airport,2013,,39.1559079,-76.717214
+174,2013,Joy's Aunts Place,2013,,35.0596978,-80.7752696
+175,2013,Kai's Place in Munich,2013,,48.1284768,11.556658
+176,2013,Matthias Knoche's Place in Austin,2013,,30.2596099,-97.7883838
+177,2013,Arrowhead Village,2013,,39.6329208,-106.5634251
+178,2011,Kelly's Place in Albuquerque,2013,,35.2244811,-106.6569897
+179,2011,"THE US GRANT, a Luxury Collection Hotel, San Diego",2011-01,,32.7160596,-117.1615416
+180,2011,Kimpton Shorebreak Hotel,2011-01,,33.658246,-118.002589
+181,2011,Le Reve Hotel & Spa,2011-01,,20.6616485,-87.0335358
+182,2011,Tierra del Sol (Tulum),2011-01,,20.2114185,-87.4653502
+183,2011,Live Aqua Beach Resort Cancun,2011-01,,21.1072839,-86.7630588
+184,2011,Holiday Inn Hotel & Suites Huntington-Civic Arena,2011-06,,38.4222219,-82.4452337
+185,2011,Holiday Inn Express & Suites Mt. Juliet - Nashville Area,2011-06,,36.1632926,-86.5143943
+186,2011,Capital Hotel,2011-06,,39.901485,116.409693
+187,2011,Grand Mercure Hotel Xian On Renmin Square,2011-06,,34.266272,108.9588654
+188,2011,Grand International Hotel Guangzhou,2011-06,,23.1412072,113.3346411
+189,2011,Century Plaza Hotel,2011-06,,22.5357764,114.1176917
+190,2011,Hotel ICON,2011-06,,22.3007765,114.1796318
+191,2011,Paragon Inn,2011-06,,13.7169561,100.7310995
+192,2011,Outrigger Laguna Phuket Beach Resort,2011-06,,7.996405,98.293176
+193,2011,Lebua at State Tower,2011-06,,13.7213511,100.51702
+194,2011,"Mandarin Oriental, Macau",2011-06,,22.1846053,113.5469971
+195,2011,Max's Place in Singapore,2011-06,,1.3046014,103.7723125
+196,2011,Ruby's Place in OK,2011-06,,35.183791,-97.4598649
+197,2011,La Quinta Inn & Suites Gallup,2011-01,,35.5315431,-108.6659904
+198,2011,Holiday Inn Hotel & Suites Tulsa South,2011-01,,36.045183,-95.864682
+199,2011,261 Lakeview Blvd (Vacation Rental),2011-01,,37.6456374,-118.9884392
+200,2011,The Tides Inn,2011-08,,37.664322,-76.4326634
+201,2011,Sheraton Charlotte Airport Hotel,2011-07,,35.2375077,-80.9226235
+202,2011,35093 Beach Rd (Wedding Venue),2011-07,,33.4528523,-117.6644331
+203,2011,Indian Wells Resort Hotel,2011-05,,33.7208736,-116.3274346
+204,2011,Miyako Hotel Los Angeles,2011-05,,34.0496734,-118.2402369
+205,2011,INNSIDE München Parkstadt Schwabing,2011-04,,48.176999,11.593035
+206,2011,"The Ritz-Carlton, Tyson's Corner",2011-04,,38.9243895,-77.223509
+207,2011,Hotel Sierra Richmond,2011-03,,37.6570924,-77.6183786
+208,2011,Raffaello Hotel,2011-03,,41.899084,-87.621701
+209,2011,Wyndham Orange County,2011-01,,33.6815761,-117.8508936
+210,2011,Wyndham Blake Chicago,2011-03,,41.8750187,-87.6294952
+211,2011,Golden City Garden (Kai's Place in Shanghai),2011-09, 6 Nights,31.2159345,121.4236093
+212,2010,Limmatblick,2010-05,,47.3759149,8.54378199999996
+213,2010,Hyatt Regency St. Louis at The Arch,2010-06,,38.626202,-90.187676
+214,2010,Hotel Epsom Manotel,2010-05,,46.215389,6.14879640000004
+215,2010,Aloft Bolingbrook,2010-08,,41.7141453,-88.0387922
+216,2010,Venice Beach Cotel,2010-09,,33.98732,-118.4732217
+217,2010,Hotel Victoria au Lac,2010-05,,45.992131,8.94694800000002
+218,2010,Crystal Cove Beach Cottages,2010-09,,33.5748877,-117.8405911
+219,2010,Pan Pacific Hotel Vancouver,2010-03,,49.28794,-123.1130519
+220,2010,7 Gables Inn & Suites,2010-03,,64.844189,-147.8393668
+221,2010,Victoria Marriott Inner Harbour,2010-03,,48.421409,-123.364802
+222,2010,Chena Hot Springs Resort,2010-03,,65.0530222,-146.0565166
+223,2010,Alaskan Frontier Gardens Bed and Breakfast,2010-03,,61.1115309,-149.7432368
+224,2010,Renaissance Seattle Hotel,2010-03,,47.60672,-122.3310569
+225,2010,229 Maple Dr (Joy's Parents),2010-12,,43.080083,-75.651264
+226,2010,The Whitehall Hotel,2010-08,,41.8990125,-87.625729
+227,2010,301 W 53rd St (Naman's Place),2010-11,,40.7646303,-73.9848661
+228,2010,Stefan's Place ,2010-01, 2 Nights,40.4327086,-79.9248669
+229,2010,Hotel National,2010-06, 1 Night,50.1053607,8.66526469999997
+230,2009 & Earlier,Fairmont San Francisco,2009-05, 4 Nights,37.7925064,-122.4106215
+231,2009 & Earlier,Grand Hyatt San Francisco,2002,,37.78913,-122.40725
+232,2009 & Earlier,Waldorf Astoria New York,2003,,40.7565217,-73.9741521
+233,2009 & Earlier,Best Western Plus Bryce Canyon Grand Hotel,2009-12, 1 Night,37.6747579,-112.152394
+234,2009 & Earlier,Mandalay Bay,2009-12, 1 Night,36.0918777,-115.175245
+235,2009 & Earlier,Radisson Boston,2006-12, 3 Nights,42.350764,-71.067466
+236,2009 & Earlier,Kimpton Solamar Hotel,2009-10, 2 Nights,32.7097267,-117.1587554
+237,2009 & Earlier,Bildungszentrum Schloß Wendgräben,2016-09, 5 Nights,52.1484728,12.0509142999999
+238,2009 & Earlier,Fairmont Le Château Frontenac,2016-08, 2 Nights,46.811978,-71.20501
+239,2009 & Earlier,InterContinental Montreal,2016-08, 1 Night,45.5030314,-73.5603574
+240,2009 & Earlier,Bellagio Hotel and Casino,2009-05, 3 Nights,36.1126264,-115.1767051
+241,2009 & Earlier,Best Western Premier Grand Canyon Squire Inn,2009-05, 2 Nights,35.9695666,-112.1293992
+242,2009 & Earlier,JW Marriott Santa Monica Le Merigot,2009-05, 3 Nights,34.008628,-118.49244
+243,2009 & Earlier,Hyatt Regency Boston,2009-05, 2 Nights,42.353643,-71.060734
+244,2009 & Earlier,InterContinental New York Barclay,2009-04, 4 Nights,40.7555218,-73.9736435
+245,2009 & Earlier,InterContinental Toronto Centre,2009-04, 1 Night,43.6441772,-79.3854425
+246,2009 & Earlier,NH Cancun,2009-03, 7 Nights,21.13429,-86.7449584
+247,2009 & Earlier,Grand Hyatt Washington,2009-03, 1 Night,38.8995447,-77.0264077
+248,2009 & Earlier,Courtyard by Marriott Philadelphia Downtown,2009-01, 1 Night,39.95301,-75.161804
+249,2009 & Earlier,Pittsburgh Marriott City Center,2009-01, 1 Night,40.4396517,-79.9920261
+250,2009 & Earlier,Courtyard by Marriott Pittsburgh Shadyside,2009-01, 2 Nights,40.456166,-79.9394938
+251,2009 & Earlier,Disney's Hotel New York,2008-09, 8 Nights,48.870494,2.78772179999999
+252,2009 & Earlier,Hôtel Jade (Manotel),2008-08, 6 Nights,46.2152738,6.1476692
+253,2009 & Earlier,Paris,2008-08, 2 Nights,48.856614,2.35222190000002
+254,2009 & Earlier,Centre Médical Mercure,2008-06, 1 Night,49.6026504,6.13339840000003
+255,2009 & Earlier,Sofitel Luxembourg Le Grand Ducal,2008-06, 1 Night,49.6057179,6.13760160000004
+256,2009 & Earlier,"Radisson Blu Resort, Malta St Julian's",2008-07, 3 Nights,35.9298791,14.4905066
+257,2009 & Earlier,"Habtoor Grand Resort, Autograph Collection",2008-07, 3 Nights,25.0859217,55.1412431
+258,2009 & Earlier,London (Felix's Place),2008-07, 2 Nights,51.5073509,-0.127758299999982
+259,2009 & Earlier,"Calle de Valverde, 6 (Jan Peter)",2008-06, 2 Nights,40.4208015,-3.70199609999997
+260,2009 & Earlier,Fairmotel **** Dornbirn,2008-08, 1 Night,47.39312,9.72909000000004
+261,2009 & Earlier,Best Western New Century,2008-05, 12 Nights,31.2615698,121.4890748
+262,2009 & Earlier,Park Inn,2008-12, 1 Night,52.5227689,13.4129548
+263,2009 & Earlier,Mövenpick Hotel Frankfurt City,2008-03, 1 Night,50.1098755,8.65097160000005
+264,2009 & Earlier,Hotel Post,2007-12, 7 Nights,47.062707,10.3739263
+265,2009 & Earlier,Hotel Rüdesheimer Hof,2007-04, 1 Night,49.9791761,7.92642860000001
+266,2009 & Earlier,Rhein-Nahe-Jugendherberge Bingen,2007-11, 2 Nights,49.968622,7.87906099999998
+267,2009 & Earlier,Schloß Eichholz der Konrad–Adenauer–Stiftung,2008-03, 2 Nights,50.8015971,6.98999400000002
+268,2009 & Earlier,Hotel Tirol,2008-03, 2 Nights,47.0092015,10.2884817
+269,2009 & Earlier,Hotel Salnerhof **** superior,2008-03, 2 Nights,47.0086011,10.2854282000001
+270,2009 & Earlier,Hotel - Pension Gampelerhof,2008-03, 2 Nights,46.9670642,10.1887572000001
+271,2009 & Earlier,Hesperia Parque Central,2007-06, 2 Nights,39.4565763,-0.375221699999997
+272,2009 & Earlier,Sprachkurs Nizza,2007-04, 14 Nights,43.7019278,7.2625369
